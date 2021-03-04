@@ -127,7 +127,7 @@
         var map = L.map('map').setView([20.5937, 78.9629], 4);
         var jsonDataObject =[];
 
-        var jse="https://spreadsheets.google.com/feeds/list/1g0b7QSvkW408oHamGKca4UogUUGg5A07ey1KKsmR_Do/1/public/full?alt=json"
+        var jse="https://spreadsheets.google.com/feeds/list/1g0b7QSvkW408oHamGKca4UogUUGg5A07ey1KKsmR_Do/5/public/full?alt=json"
     
 
         $.getJSON(jse, function(data) {
@@ -182,7 +182,7 @@
       var graph_arr = [['Order ID', 'Time Taken', { role: 'style' }]];
       var bar_color = [];
   
-      var jse="https://spreadsheets.google.com/feeds/list/1g0b7QSvkW408oHamGKca4UogUUGg5A07ey1KKsmR_Do/1/public/full?alt=json"
+      var jse="https://spreadsheets.google.com/feeds/list/1g0b7QSvkW408oHamGKca4UogUUGg5A07ey1KKsmR_Do/5/public/full?alt=json"
       
       $.getJSON(jse, function(data) {
         for (var i = 0; i < data.feed.entry.length; ++i) {
